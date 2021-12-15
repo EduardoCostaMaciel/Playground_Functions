@@ -4,11 +4,11 @@ function compareTrue(valueBooleanOne, valueBooleanTwo) {
   return false;
 }
 
-// Desafio 2
-let areaDoTriangulo = 0;
+// Desafio 2 area_do_triângulo
 function calcArea(base, height) {
-  areaDoTriangulo = (base * height) / 2;
-  return areaDoTriangulo;
+  let area = 0;
+  area = (base * height) / 2;
+  return area;
 }
 
 // Desafio 3
