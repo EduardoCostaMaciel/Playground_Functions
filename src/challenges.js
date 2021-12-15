@@ -29,18 +29,14 @@ function footballPoints(wins, ties) {
 
 // Desafio 6 - Crie uma função que calcule a repetição do maior número
 function highestCount(arrayRip) {
-  let guardaMaiorNumero = 0;
+  let maiorValor = Math.max(...arrayRip);
   let repeticao = 0;
-  for (let index = 0; index < arrayRip.length; index += 1) {
-    if (guardaMaiorNumero < arrayRip[index]) {
-      guardaMaiorNumero = arrayRip[index];
+  repeticao = arrayRip.reduce((total, curr) => {
+    if (curr === maiorValor) {
+      total += 1;
     }
-  }
-  for (let index = 0; index < arrayRip.length; index += 1) {
-    if (guardaMaiorNumero === arrayRip[index]) {
-      repeticao += 1;
-    }
-  }
+    return total;
+  }, 0);
   return repeticao;
 }
 
