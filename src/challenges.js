@@ -56,17 +56,17 @@ function catAndMouse(mouse, cat1, cat2) {
 // Desafio 8 divisível ou multiplos
 function fizzBuzz(returnDeArray) {
   let fizzBuzzArray = [];
-  for (let index = 0; index < returnDeArray.length; index += 1) {
-    if (returnDeArray[index] % 3 === 0 && returnDeArray[index] % 5 === 0) {
+  returnDeArray.forEach((element) => {
+    if (element % 3 === 0 && element % 5 === 0) {
       fizzBuzzArray.push('fizzBuzz');
-    } else if (returnDeArray[index] % 3 === 0) {
+    } else if (element % 3 === 0) {
       fizzBuzzArray.push('fizz');
-    } else if (returnDeArray[index] % 5 === 0) {
+    } else if (element % 5 === 0) {
       fizzBuzzArray.push('buzz');
     } else {
       fizzBuzzArray.push('bug!');
     }
-  }
+  });
   return fizzBuzzArray;
 }
 
