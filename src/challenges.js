@@ -71,48 +71,70 @@ function fizzBuzz(returnDeArray) {
 }
 
 // Desafio 9
+function encodeAssistant(codifique) {
+  let vowelsCodifique = [...codifique];
+  let codeFique = [];
+  vowelsCodifique.forEach((element) => {
+    if (element === 'a') {
+      codeFique.push(1);
+    } else if (element === 'e') {
+      codeFique.push(2);
+    } else if (element === 'i') {
+      codeFique.push(3);
+    } else {
+      codeFique.push(element);
+    }
+  });
+  return codeFique.join('');
+}
+
 function encode(codifique) {
-  let vogaisCodifique = codifique.split('');
-  for (let index in vogaisCodifique) {
-    if (vogaisCodifique[index] === 'a') {
-      vogaisCodifique[index] = 1;
+  let result = encodeAssistant(codifique);
+  let vowelsCodifique = [...result];
+  let codeFique = [];
+  vowelsCodifique.forEach((element) => {
+    if (element === 'o') {
+      codeFique.push(4);
+    } else if (element === 'u') {
+      codeFique.push(5);
+    } else {
+      codeFique.push(element);
     }
-    if (vogaisCodifique[index] === 'e') {
-      vogaisCodifique[index] = 2;
+  });
+  return codeFique.join('');
+}
+
+function decodeAssistant(decodifique) {
+  let numberDeCodifique = [...decodifique];
+  let decodeFique = [];
+  numberDeCodifique.forEach((element) => {
+    if (element === '1') {
+      decodeFique.push('a');
+    } else if (element === '2') {
+      decodeFique.push('e');
+    } else if (element === '3') {
+      decodeFique.push('i');
+    } else {
+      decodeFique.push(element);
     }
-    if (vogaisCodifique[index] === 'i') {
-      vogaisCodifique[index] = 3;
-    }
-    if (vogaisCodifique[index] === 'o') {
-      vogaisCodifique[index] = 4;
-    }
-    if (vogaisCodifique[index] === 'u') {
-      vogaisCodifique[index] = 5;
-    }
-  }
-  return vogaisCodifique.join('');
+  });
+  return decodeFique.join('');
 }
 
 function decode(decodifique) {
-  let numerosDecofique = decodifique.split('');
-  for (let index in numerosDecofique) {
-    if (numerosDecofique[index] === '1') {
-      numerosDecofique[index] = 'a';
+  let result = decodeAssistant(decodifique);
+  let numberDeCodifique = [...result];
+  let decodeFique = [];
+  numberDeCodifique.forEach((element) => {
+    if (element === '4') {
+      decodeFique.push('o');
+    } else if (element === '5') {
+      decodeFique.push('u');
+    } else {
+      decodeFique.push(element);
     }
-    if (numerosDecofique[index] === '2') {
-      numerosDecofique[index] = 'e';
-    }
-    if (numerosDecofique[index] === '3') {
-      numerosDecofique[index] = 'i';
-    }
-    if (numerosDecofique[index] === '4') {
-      numerosDecofique[index] = 'o';
-    }
-    if (numerosDecofique[index] === '5') {
-      numerosDecofique[index] = 'u';
-    }
-  }
-  return numerosDecofique.join('');
+  });
+  return decodeFique.join('');
 }
 
 module.exports = {
