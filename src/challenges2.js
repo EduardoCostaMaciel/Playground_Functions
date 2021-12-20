@@ -31,9 +31,18 @@ function generatePhoneNumber(arrayNumbers) {
 }
 
 // Desafio 12
-// function triangleCheck() {
-//   // seu código aqui
-// }
+function triangleCheckReturnBooleano(lineA, lineB, lineC) {
+  if (lineA && lineB && lineC) return true;
+  return false;
+}
+
+function triangleCheck(lineA, lineB, lineC) {
+  let verifyLineA = lineA < (lineB + lineC) && lineA > Math.abs(lineB - lineC);
+  let verifyLineB = lineB < (lineA + lineC) && lineB > Math.abs(lineA - lineC);
+  let verifyLineC = lineC < (lineA + lineB) && lineC > Math.abs(lineA - lineB);
+
+  return triangleCheckReturnBooleano(verifyLineA, verifyLineB, verifyLineC);
+}
 
 // // Desafio 13
 // function hydrate() {
@@ -44,5 +53,5 @@ module.exports = {
   generatePhoneNumber,
   techList,
   // hydrate,
-  // triangleCheck,
+  triangleCheck,
 };
