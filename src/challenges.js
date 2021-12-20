@@ -1,16 +1,14 @@
 // Desafio 1
 function compareTrue(valueBooleanOne, valueBooleanTwo) {
-  if (valueBooleanOne === true && valueBooleanTwo === true) {
-    return true;
-  }
+  if (valueBooleanOne && valueBooleanTwo) return true;
   return false;
 }
 
-// Desafio 2
-let areaDoTriangulo = 0;
+// Desafio 2 area_do_triângulo
 function calcArea(base, height) {
-  areaDoTriangulo = (base * height) / 2;
-  return areaDoTriangulo;
+  let area = 0;
+  area = (base * height) / 2;
+  return area;
 }
 
 // Desafio 3
@@ -21,7 +19,7 @@ function splitSentence(string) {
 
 // Desafio 4
 function concatName(arrayStrings) {
-  return arrayStrings[arrayStrings.length - 1] + ', ' + arrayStrings[0];
+  return `${arrayStrings[arrayStrings.length - 1]}, ${arrayStrings[0]}`;
 }
 
 // Desafio 5
@@ -31,18 +29,14 @@ function footballPoints(wins, ties) {
 
 // Desafio 6 - Crie uma função que calcule a repetição do maior número
 function highestCount(arrayRip) {
-  let guardaMaiorNumero = 0;
+  let maiorValor = Math.max(...arrayRip);
   let repeticao = 0;
-  for (let index = 0; index < arrayRip.length; index += 1) {
-    if (guardaMaiorNumero < arrayRip[index]) {
-      guardaMaiorNumero = arrayRip[index];
+  repeticao = arrayRip.reduce((total, curr) => {
+    if (curr === maiorValor) {
+      total += 1;
     }
-  }
-  for (let index = 0; index < arrayRip.length; index += 1) {
-    if (guardaMaiorNumero === arrayRip[index]) {
-      repeticao += 1;
-    }
-  }
+    return total;
+  }, 0);
   return repeticao;
 }
 
@@ -62,63 +56,85 @@ function catAndMouse(mouse, cat1, cat2) {
 // Desafio 8 divisível ou multiplos
 function fizzBuzz(returnDeArray) {
   let fizzBuzzArray = [];
-  for (let index = 0; index < returnDeArray.length; index += 1) {
-    if (returnDeArray[index] % 3 === 0 && returnDeArray[index] % 5 === 0) {
+  returnDeArray.forEach((element) => {
+    if (element % 3 === 0 && element % 5 === 0) {
       fizzBuzzArray.push('fizzBuzz');
-    } else if (returnDeArray[index] % 3 === 0) {
+    } else if (element % 3 === 0) {
       fizzBuzzArray.push('fizz');
-    } else if (returnDeArray[index] % 5 === 0) {
+    } else if (element % 5 === 0) {
       fizzBuzzArray.push('buzz');
     } else {
       fizzBuzzArray.push('bug!');
     }
-  }
+  });
   return fizzBuzzArray;
 }
 
 // Desafio 9
+function encodeAssistant(codifique) {
+  let vowelsCodifique = [...codifique];
+  let codeFique = [];
+  vowelsCodifique.forEach((element) => {
+    if (element === 'a') {
+      codeFique.push(1);
+    } else if (element === 'e') {
+      codeFique.push(2);
+    } else if (element === 'i') {
+      codeFique.push(3);
+    } else {
+      codeFique.push(element);
+    }
+  });
+  return codeFique.join('');
+}
+
 function encode(codifique) {
-  let vogaisCodifique = codifique.split('');
-  for (let index in vogaisCodifique) {
-    if (vogaisCodifique[index] === 'a') {
-      vogaisCodifique[index] = 1;
+  let result = encodeAssistant(codifique);
+  let vowelsCodifique = [...result];
+  let codeFique = [];
+  vowelsCodifique.forEach((element) => {
+    if (element === 'o') {
+      codeFique.push(4);
+    } else if (element === 'u') {
+      codeFique.push(5);
+    } else {
+      codeFique.push(element);
     }
-    if (vogaisCodifique[index] === 'e') {
-      vogaisCodifique[index] = 2;
+  });
+  return codeFique.join('');
+}
+
+function decodeAssistant(decodifique) {
+  let numberDeCodifique = [...decodifique];
+  let decodeFique = [];
+  numberDeCodifique.forEach((element) => {
+    if (element === '1') {
+      decodeFique.push('a');
+    } else if (element === '2') {
+      decodeFique.push('e');
+    } else if (element === '3') {
+      decodeFique.push('i');
+    } else {
+      decodeFique.push(element);
     }
-    if (vogaisCodifique[index] === 'i') {
-      vogaisCodifique[index] = 3;
-    }
-    if (vogaisCodifique[index] === 'o') {
-      vogaisCodifique[index] = 4;
-    }
-    if (vogaisCodifique[index] === 'u') {
-      vogaisCodifique[index] = 5;
-    }
-  }
-  return vogaisCodifique.join('');
+  });
+  return decodeFique.join('');
 }
 
 function decode(decodifique) {
-  let numerosDecofique = decodifique.split('');
-  for (let index in numerosDecofique) {
-    if (numerosDecofique[index] === '1') {
-      numerosDecofique[index] = 'a';
+  let result = decodeAssistant(decodifique);
+  let numberDeCodifique = [...result];
+  let decodeFique = [];
+  numberDeCodifique.forEach((element) => {
+    if (element === '4') {
+      decodeFique.push('o');
+    } else if (element === '5') {
+      decodeFique.push('u');
+    } else {
+      decodeFique.push(element);
     }
-    if (numerosDecofique[index] === '2') {
-      numerosDecofique[index] = 'e';
-    }
-    if (numerosDecofique[index] === '3') {
-      numerosDecofique[index] = 'i';
-    }
-    if (numerosDecofique[index] === '4') {
-      numerosDecofique[index] = 'o';
-    }
-    if (numerosDecofique[index] === '5') {
-      numerosDecofique[index] = 'u';
-    }
-  }
-  return numerosDecofique.join('');
+  });
+  return decodeFique.join('');
 }
 
 module.exports = {
