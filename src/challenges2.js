@@ -21,12 +21,10 @@ function validPhone(arrayNumbers) {
 }
 
 function generatePhoneNumber(arrayNumbers) {
-  if (validPhone(arrayNumbers)) return validPhone(arrayNumbers);
-  arrayNumbers.forEach((elem) => {
-    if (elem < 0 || elem > 9) {
-      return 'não é possível gerar um número de telefone com esses valores';
-    }
-  });
+  if (validPhone(arrayNumbers) !== false) return validPhone(arrayNumbers);
+  if (arrayNumbers.some((elem) => elem < 0 || elem > 9)) {
+    return 'não é possível gerar um número de telefone com esses valores';
+  }
   let strPhone = arrayNumbers.join('');
   return `(${strPhone.slice(0, 2)}) ${strPhone.slice(2, 7)}-${strPhone.slice(7, 11)}`;
 }
