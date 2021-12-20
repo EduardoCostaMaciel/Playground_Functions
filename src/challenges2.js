@@ -44,14 +44,22 @@ function triangleCheck(lineA, lineB, lineC) {
   return triangleCheckReturnBooleano(verifyLineA, verifyLineB, verifyLineC);
 }
 
-// // Desafio 13
-// function hydrate() {
-//   // seu código aqui
-// }
+// Desafio 13
+function hydrate(str) {
+  let reg = /\d+/g;
+  let result = str.match(reg);
+  let sumNumbers = 0;
+  sumNumbers = result.reduce((total, curr) => {
+    total += Number(curr);
+    return total;
+  }, 0);
+  if (sumNumbers > 1) return `${sumNumbers} copos de água`;
+  return `${sumNumbers} copo de água`;
+}
 
 module.exports = {
   generatePhoneNumber,
   techList,
-  // hydrate,
+  hydrate,
   triangleCheck,
 };
