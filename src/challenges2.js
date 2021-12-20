@@ -1,5 +1,6 @@
 // Desafio 10
 function techList(tech, name) {
+  if (!tech.length) return 'Vazio!';
   let arrayOrdering = tech.sort();
   let listDeTech = [];
   arrayOrdering.forEach((element) => {
