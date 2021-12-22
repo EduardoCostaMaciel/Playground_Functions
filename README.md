@@ -26,7 +26,6 @@ Aqui você vai encontrar algumas funções de objetivos específicos, como, por 
 # Sumário
 
 - [Instruções para instalação do projeto](#instruções-para-instalação-do-projeto)
-  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
 - [Fuções do projeto](#funções-do-projeto)
     - [1 - Função compareTrue](#1---função-compareTrue)
     - [2 - Função calcArea](#2---função-calcArea)
