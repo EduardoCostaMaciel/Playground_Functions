@@ -12,18 +12,13 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 # Sumário
 
 - [Habilidades](#habilidades)
-- [Entregáveis](#entregáveis)
-  - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
-  - [Data de Entrega](#data-de-entrega)
 - [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
   - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
   - [Durante o desenvolvimento](#durante-o-desenvolvimento)
-- [Como desenvolver](#como-desenvolver)
-  - [Linter](#linter)
 - [Requisitos do projeto](#requisitos-do-projeto)
 
     `Requisitos obrigatórios:`
-    - [1 - Crie uma função usando o operador &&](#1---crie-uma-função-usando-o-operador-)
+    - [1 - função](#1---crie-uma-função-usando-o-operador-)
     - [2 - Crie uma função que calcule a área do triângulo](#2---crie-uma-função-que-calcule-a-área-do-triângulo)
     - [3 - Crie uma função que divida a frase](#3---crie-uma-função-que-divida-a-frase)
     - [4 - Crie uma função que use concatenação de strings](#4---crie-uma-função-que-use-concatenação-de-strings)
@@ -168,7 +163,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 ---
 
-### 1 - Crie uma função usando o operador &&
+### 1 - função
 
 JavaScript possui um operador lógico `&&`, o qual recebe dois valores e retorna `true` se ambos os valores são verdadeiros, e retorna `false` se algum dos valores não o for.
 
