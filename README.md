@@ -48,7 +48,7 @@ Aqui você vai encontrar algumas funções de objetivos específicos, como, por 
 
 Todas as funções estão declaradas nos arquivos `challenges.js` e `challenges2.js`. Contudo **Não altere o nome das funções que já existem**.
 
-# Instruções para instalção do projeto
+# Instruções para instalação do projeto
 
 1. Clone o repositório
   * `git clone git@github.com:EduardoCostaMaciel/Playground_Functions.git`.
