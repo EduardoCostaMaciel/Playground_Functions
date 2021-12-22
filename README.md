@@ -1,16 +1,11 @@
-### Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do
-Manual da Pessoa Estudante da Trybe.
-
 # Boas vindas ao repositório do Projeto Playground Functions!
 
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #VQV 🚀
+Para instalação do projeto, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, envie por <a href="mailto:costaeduardomaciel@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-costaeduardomaciel@gmail.com-blue?style=flat-square&logo=gmail"></a> #VQV 🚀
 
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma `branch` específica e um _Pull Request_ para colocar seus códigos.
+Aqui você vai encontrar os detalhes de como instalar esse projeto a partir desse repositório, utilizando uma `branch` específica e um _Pull Request_ .
 
-# Sumário
-
+<!-- # Sumário -->
+<!-- 
 - [Habilidades](#habilidades)
 - [Entregáveis](#entregáveis)
   - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
@@ -41,49 +36,25 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 - [Depois de terminar o desenvolvimento](#depois-de-terminar-o-desenvolvimento)
 - [Revisando um pull request](#revisando-um-pull-request)
 - [Avisos Finais](#avisos-finais)
-
-# Habilidades
+ -->
+# Habilidades Desenvolvidas
 
 - Escrever códigos em JavaScript que usam variáveis e tipos primitivos;
 - Utilizar conceitos da linguagem como a tipagem dinâmica e operadores lógicos/aritméticos/de atribuição no seu código;
-- Criar códigos que usam estruturas condicionais, como o if/else .
+- Criar códigos que usam estruturas condicionais.
 - Manipular arrays (listas);
-- Utilizar o comando for ;
 - Quebrar grandes problemas em pequenos;
 - Utilizar a lógica de programação na resolução de problemas.
 - Manipular objetos;
-- Utilizar o comando for/in ;
 - Utilizar funções para organizar e estruturar o seu código;
 
-# Entregáveis
+## ⚠️ É importante que os arquivos não tenham o nome alterado! ⚠️
 
-Para entregar o seu projeto você deverá criar um _Pull Request_ neste repositório.
+<!-- Para entregar o seu projeto você deverá criar um _Pull Request_ neste repositório. -->
 
-Este Pull Request deverá conter os arquivos `challenges.js` e `challenges2.js` com suas funções implementadas.
+Todas as funções estão declaradas nos arquivos `challenges.js` e `challenges2.js`. Contudo **Não altere o nome das funções que já existem**.
 
-Todas as funções já estão declaradas nos arquivos `challenges.js` e `challenges2.js`. Você pode criar outras funções para auxiliarem as já existentes. Contudo **Não altere o nome das funções que já existem**.
-
-**Os parâmetros das funções já existentes podem e devem ser alterados.**
-
-## ⚠️ É importante que seus arquivos não tenham o nome alterado! ⚠️
-
-Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
-
----
-
-## O que deverá ser desenvolvido
-
-- Você vai implementar funções a partir de requisitos.
-- Você vai desenvolver funções seguindo os requisitos especificados para o correto comportamento de cada uma delas.
-
-## Data de Entrega
-
-  - Serão `7` dias de projeto.
-  - Data de entrega para avaliação final do projeto: `09/03/2021 - 14:00h`.
-
-# Instruções para entregar seu projeto
-
-## Antes de começar a desenvolver
+# Instruções para instalção do projeto
 
 1. Clone o repositório
   * `git clone git@github.com:tryber/sd-0x-project-playground-functions.git`.
