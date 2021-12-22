@@ -120,7 +120,7 @@ Recebe dois valores:
 - Retorna `true` se ambos os valores são verdadeiros;
 - Retorna `false` se um ou ambos os parâmetros forem falsos.
 
-### 2 - Função `calcArea(base, height)`.
+### 2 - Função calcArea (base, height).
 `"cálcula a área de um triângulo"`. 
 
 Recabe dois valores:
