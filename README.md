@@ -89,7 +89,7 @@ Todas as funções estão declaradas nos arquivos `challenges.js` e `challenges2
   * Clique no botão verde _"Create pull request"_
   * Adicione uma descrição para o _Pull Request_, um título que o identifique, e clique no botão verde _"Create pull request"_. Crie da seguinte forma: `[JOAOZINHO] Projeto Playground Functions`
   * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/EduardoCostaMaciel/Playground_Functions/pulls) e confira que o seu _Pull Request_ está criado
+  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/EduardoCostaMaciel/Playground_Functions/pulls) e confira que o seu _Pull Request_ está criado.
 ---
 ### 👀 Observações importantes:
 
@@ -101,6 +101,7 @@ Todas as funções estão declaradas nos arquivos `challenges.js` e `challenges2
 
 ### 1 - Função compareTrue.
 `compareTrue(valueBooleanOne, valueBooleanTwo)`
+
 Recebe dois valores:
 
 - Retorna `true` se ambos os valores são verdadeiros;
@@ -108,6 +109,7 @@ Recebe dois valores:
 
 ### 2 - Função calcArea.
 `calcArea(base, height)`
+
 `"cálcula a área de um triângulo"`. 
 
 Recabe dois valores:
@@ -117,6 +119,7 @@ Recabe dois valores:
 
 ### 3 - Função splitSentence.
 `splitSentence(string)`
+
 `"divide a frase"`.
 
 Recebe uma string:
@@ -127,49 +130,53 @@ Exemplo:
 
 ### 4 - Função concatName.
 `concatName(arrayStrings)`
+
 `"concatenação de strings"`.
 
 Recebe um array de strings:
 - Retorna uma string com o formato `'ÚLTIMO ITEM, PRIMEIRO ITEM'`, independente do tamanho da array.
 
 Exemplo:
-- Retorna a string `'Paolillo, Lucas'` quando o parâmetro passado na funcão concatName seja `['Lucas', 'Cassiano', 'Ferraz', 'Paolillo']`
+- Retorna a string `'Paolillo, Lucas'` quando o parâmetro passado na funcão concatName seja `['Lucas', 'Cassiano', 'Ferraz', 'Paolillo']`.
 
 ### 5 - Função footballPoints.
 `footballPoints(wins, ties)`
+
 `"calcule a quantidade de pontos no futebol"`.
 
-Recebe o número de vitórias (esse parâmetro se chamar `wins`) e o número de empates (esse parâmetro se chamar `ties`)
+Recebe o número de vitórias (esse parâmetro se chamar `wins`) e o número de empates (esse parâmetro se chamar `ties`).
 - Retorna a quantidade de pontos que o time marcou em um campeonato.
 
 Considerando que cada `vitória vale 3` pontos e cada `empate vale 1` ponto.
 
 Exemplo:
-- Retorna `50` pontos quando o time tenha `14 vitórias` e `8 empates`
+- Retorna `50` pontos quando o time tenha `14 vitórias` e `8 empates`.
 
 ### 6 - Função highestCount.
 `highestCount(arrayRip)`.
+
 `"calcule a repetição do maior número"`.
 
 Receber uma array de números:
 - Retorna a quantidade de vezes que o maior deles se repete.
 
 Exemplo:
-- Retorna `2` quando o parâmetro passado na funcão highestCount seja `[9, 1, 2, 3, 9, 5, 7]`
+- Retorna `2` quando o parâmetro passado na funcão highestCount seja `[9, 1, 2, 3, 9, 5, 7]`.
 
 ### 7 - Função catAndMouse.
 `catAndMouse(mouse, cat1, cat2)`.
+
 `"Caça ao rato"`.
 
 Recebe a posição de `mouse`, `cat1` e `cat2`(**nessa ordem**).
-- Calcula as distâncias entre o rato e os gatos
+- Calcula as distâncias entre o rato e os gatos.
 - Retorna qual dos felinos irá alcançar o rato primeiro (sendo aquele que estará mais perto).
 
 Exemplo:
-Caso o gato `cat2` esteja a 2 unidades de distância do rato, e `cat1` esteja a 3 unidades,
+Caso o gato `cat2` esteja a 2 unidades de distância do rato, e `cat1` esteja a 3 unidades;
 - Retorna `"cat2"`.
 
-Caso os gatos estejam na mesma distância do rato, 
+Caso os gatos estejam na mesma distância do rato;
 - Retorna a string `"os gatos trombam e o rato foge"`.
 
 ### 8 - Função FizzBuzz.
@@ -182,7 +189,7 @@ Recebe um array de números:
 - Caso o número não possa ser dividido por 3 nem por 5, retorne a string `"bug!"`;
 
 Exemplo:
-- Retorna um array de strings `['bug!', 'fizzBuzz', 'bug!', 'fizz', 'fizzBuzz']` quando é passado os parâmetros `[2, 15, 7, 9, 45]`
+- Retorna um array de strings `['bug!', 'fizzBuzz', 'bug!', 'fizz', 'fizzBuzz']` quando é passado os parâmetros `[2, 15, 7, 9, 45]`.
 
 ### 9 - Funções encode e decode.
 `encode(codifique)` e `decode(decodifique)`.
@@ -191,14 +198,14 @@ Recebe uma string como parâmetro:
 
 - Função encode(codifique):
 
-Deverá trocar todas as vogais minúsculas por números, de acordo com o formato a seguir
+Deverá trocar todas as vogais minúsculas por números, de acordo com o formato a seguir.
 - `a -> 1 \ e -> 2 \ i -> 3 \ o -> 4 \ u -> 5`
 
 Exemplo:
 - Retorna `"h3 th2r2!"`, caso o parâmetro seja `"hi there!"`.
 
 - Função decode(decodifique):
-Deverá trocar todos os números por vogais minúsculas, de acordo com o formato a seguir
+Deverá trocar todos os números por vogais minúsculas, de acordo com o formato a seguir.
 - `1 -> a \ 2 -> e \ 3 -> i \ 4 -> o \ 5 -> u`
 
 Exemplo:
@@ -208,7 +215,7 @@ Exemplo:
 `techList(tech, name)`
 
 Recebe dois parâmentros:
-- Primeiro(tech), um array de nomes de tecnologias
+- Primeiro(tech), um array de nomes de tecnologias.
 - Segundo(name), uma string nome de uma pessoa.
 
 Para cada tecnologia no array, crie um objeto com a seguinte estrutura:
@@ -236,7 +243,8 @@ Exemplo:
 Caso o array venha vazio sua função deve retornar `'Vazio!'`.
 
 ### 11 - Função generatePhoneNumber.
-`generatePhoneNumber(arrayNumbers)`
+`generatePhoneNumber(arrayNumbers)`.
+
 Recebe um array com 11 números:
 - Retorna um número de telefone, respeitando parênteses, traços e espaços.
 
@@ -251,37 +259,35 @@ Exemplo:
   - Retorna a string `"não é possível gerar um número de telefone com esses valores"`.
 
 ### 12 - Função triangleCheck.
-`triangleCheck(lineA, lineB, lineC)`
-`"Condição de existência de um triângulo"`.
+`triangleCheck(lineA, lineB, lineC)`.
 
-Recebe três parâmetros:
-- Retorna se é possível formar um triângulo com os valores apresentados de cada linha
-
-Considerações para existência de um triângulo:
-
+Condição de existência de um triângulo;
 - É necessário que a medida de qualquer um dos lados seja menor que a soma das medidas dos outros dois e maior que o valor absoluto da diferença entre essas medidas.
 
-Exemplo:
-- Retorne `false` quando a medida de qualquer um dos lados seja maior que a soma das medidas dos outros dois
+Recebe três parâmetros;
+- Retorna se é possível formar um triângulo com os valores apresentados de cada linha.
 
-- Retorne `false` quando a medida de qualquer um dos lados seja menor que o valor absoluto da diferença entre essas medidas
+Exemplo;
+- Retorne `false` quando a medida de qualquer um dos lados seja maior que a soma das medidas dos outros dois.
 
-- Retorne true quando a medida de qualquer um dos lados seja menor que a soma das medidas dos outros dois e maior que o valor absoluto da diferença entre essas medidas
+- Retorne `false` quando a medida de qualquer um dos lados seja menor que o valor absoluto da diferença entre essas medidas.
+
+- Retorne true quando a medida de qualquer um dos lados seja menor que a soma das medidas dos outros dois e maior que o valor absoluto da diferença entre essas medidas.
 
 ### 13 - Função hydrate.
 `hydrate(string)`.
 
 A cada bebida deve-se beber um copo de água para que não se tenha ressaca.
 
-Recebe uma string:
+Recebe uma string;
 - Retorna a sugestão de quantos copos de água você deve beber.
-Exemplos:
-- String recebida:
-  `"1 cerveja"`
-- String retornada:
-  `"1 copo de água"`
+Exemplos;
+- String recebida;
+  `"1 cerveja"`.
+- String retornada;
+  `"1 copo de água"`.
 
-- String recebida:
-  `"1 cachaça, 5 cervejas e 1 copo de vinho"`
-- String retornada:
-  `"7 copos de água"`
+- String recebida;
+  `"1 cachaça, 5 cervejas e 1 copo de vinho"`.
+- String retornada;
+  `"7 copos de água"`.
