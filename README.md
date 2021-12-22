@@ -1,6 +1,8 @@
 # Boas vindas ao repositório do Projeto Playground Functions!
 
-Para instalação do projeto, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, envie por <a href="mailto:costaeduardomaciel@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-costaeduardomaciel@gmail.com-blue?style=flat-square&logo=gmail"></a> #VQV 🚀
+Para instalação do projeto, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, envie por <a href="mailto:costaeduardomaciel@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-costaeduardomaciel@gmail.com-blue?style=flat-square&logo=gmail"></a>
+<br>
+#VQV 🚀
 
 Aqui você vai encontrar os detalhes de como instalar esse projeto a partir desse repositório, utilizando uma `branch` específica e um _Pull Request_ .
 
