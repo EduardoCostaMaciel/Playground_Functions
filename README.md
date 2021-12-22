@@ -57,7 +57,7 @@ Todas as funções estão declaradas nos arquivos `challenges.js` e `challenges2
 # Instruções para instalção do projeto
 
 1. Clone o repositório
-  * `git clone git@github.com:tryber/sd-0x-project-playground-functions.git`.
+  * `git clone git@github.com:EduardoCostaMaciel/Playground_Functions.git`.
   * Entre na pasta do repositório que você acabou de clonar:
     * `cd sd-010-a-project-playground-functions`
 
