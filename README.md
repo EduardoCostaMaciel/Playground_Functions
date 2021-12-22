@@ -4,7 +4,13 @@ Para instalação do projeto, você deverá seguir as instruções a seguir. Fiq
 <br>
 #VQV 🚀
 
-Aqui você vai encontrar os detalhes de como instalar esse projeto a partir desse repositório, utilizando uma `branch` específica e um _Pull Request_ .
+Aqui você vai encontrar algumas funções de objetivos específicos, como por, exemplo;
+
+ - Que cálcula a área de um triângulo.
+ - Que cálcula a quantidade de pontos no futebol.
+ - Que cálcula a repetição do maior número.
+ - Que codifiqua e decodifiqua um frase.
+ - Que retorna um número de telefone, respeitando parênteses, traços e espaços.
 
 # Habilidades Desenvolvidas
 
