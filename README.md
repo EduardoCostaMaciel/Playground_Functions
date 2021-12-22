@@ -113,7 +113,7 @@ Todas as funções estão declaradas nos arquivos `challenges.js` e `challenges2
 
 ---
 
-### 1 - Função compareTrue(valueBooleanOne, valueBooleanTwo).
+### 1 - Função compareTrue(valueBooleanOne, valueBooleanTwo)
 
 Recebe dois valores:
 
