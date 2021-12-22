@@ -37,7 +37,7 @@ Aqui você vai encontrar algumas funções de objetivos específicos, como por, 
 - [Requisitos do projeto](#requisitos-do-projeto)
 
     `Requisitos obrigatórios:`
-    - [1 - Função compareTrue(valueBooleanOne, valueBooleanTwo)](#1---função-compareTrue(valueBooleanOne, valueBooleanTwo))
+    - [1 - Função compareTrue](#1---função-compareTrue)
     - [2 - Crie uma função que calcule a área do triângulo](#2---crie-uma-função-que-calcule-a-área-do-triângulo)
     - [3 - Crie uma função que divida a frase](#3---crie-uma-função-que-divida-a-frase)
     - [4 - Crie uma função que use concatenação de strings](#4---crie-uma-função-que-use-concatenação-de-strings)
