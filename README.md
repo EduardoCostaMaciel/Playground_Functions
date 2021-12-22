@@ -4,7 +4,7 @@ Para instalação do projeto, você deverá seguir as instruções a seguir. Fiq
 <br>
 #VQV 🚀
 
-Aqui você vai encontrar algumas funções de objetivos específicos, como por, exemplo;
+Aqui você vai encontrar algumas funções de objetivos específicos, como, por exemplo;
 
  - Que cálcula a área de um triângulo.
  - Que cálcula a quantidade de pontos no futebol.
@@ -25,35 +25,22 @@ Aqui você vai encontrar algumas funções de objetivos específicos, como por, 
 
 # Sumário
 
-- [Habilidades](#habilidades)
-- [Entregáveis](#entregáveis)
-  - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
-  - [Data de Entrega](#data-de-entrega)
-- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
+- [Instruções para instalação do projeto](#instruções-para-instalação-do-projeto)
   - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
-- [Como desenvolver](#como-desenvolver)
-  - [Linter](#linter)
 - [Fuções do projeto](#funções-do-projeto)
     - [1 - Função compareTrue](#1---função-compareTrue)
     - [2 - Função calcArea](#2---função-calcArea)
-    - [3 - Crie uma função que divida a frase](#3---crie-uma-função-que-divida-a-frase)
-    - [4 - Crie uma função que use concatenação de strings](#4---crie-uma-função-que-use-concatenação-de-strings)
-    - [5 - Crie uma função que calcule a quantidade de pontos no futebol](#5---crie-uma-função-que-calcule-a-quantidade-de-pontos-no-futebol)
-    - [6 - Crie uma função que calcule a repetição do maior número](#6---crie-uma-função-que-calcule-a-repetição-do-maior-número)
-    - [7 - Crie uma função de Caça ao rato](#7---crie-uma-função--de-caça-ao-rato)
-    - [8 - Crie uma função FizzBuzz](#8---crie-uma-função-fizzbuzz)
-    - [9 - Crie uma função que Codifique e Decodifique](#9---crie-uma-função-que-codifique-e-decodifique)
-    - [10 - Crie uma função de Lista de tecnologias](#10---crie-uma-função-de-lista-de-tecnologias)
-
-    `Requisitos bônus:`
-    - [11 - Crie uma função de Número de telefone](#11---crie-uma-função-de-número-de-telefone)
-    - [12 - Crie uma função de Condição de existência de um triângulo](#12---crie-uma-função-de-condição-de-existência-de-um-triângulo)
-    - [13 - Crie uma função de Bem vindo ao Bar da Trybe!](#13---crie-uma-função-de-bem-vindo-ao-bar-da-trybe)
-- [Depois de terminar o desenvolvimento](#depois-de-terminar-o-desenvolvimento)
-- [Revisando um pull request](#revisando-um-pull-request)
-- [Avisos Finais](#avisos-finais)
-
+    - [3 - Função splitSentence](#3---função-splitSentence)
+    - [4 - Função concatName](#4---função-concatName)
+    - [5 - Função footballPoints](#5---função-footballPoints)
+    - [6 - Função highestCount](#6---função-highestCount)
+    - [7 - Função catAndMouse](#7---função-catAndMouse)
+    - [8 - Função fizzBuzz](#8---função-fizzbuzz)
+    - [9 - Função encode e decode](#9---função-encode-e-decode)
+    - [10 - Função techList](#10---função-techList)
+    - [11 - Função generatePhoneNumber](#11---função-generatePhoneNumber)
+    - [12 - Função triangleCheck](#12---função-triangleCheck)
+    - [13 - Função hydrate](#13---função-hydrate)
 
 ## ⚠️ É importante que os arquivos não tenham o nome alterado! ⚠️
 
@@ -113,14 +100,15 @@ Todas as funções estão declaradas nos arquivos `challenges.js` e `challenges2
 
 ## Funções do projeto
 
-### 1 - Função compareTrue (valueBooleanOne, valueBooleanTwo)
-
+### 1 - Função compareTrue.
+`compareTrue(valueBooleanOne, valueBooleanTwo)`
 Recebe dois valores:
 
 - Retorna `true` se ambos os valores são verdadeiros;
 - Retorna `false` se um ou ambos os parâmetros forem falsos.
 
 ### 2 - Função calcArea.
+`calcArea(base, height)`
 `"cálcula a área de um triângulo"`. 
 
 Recabe dois valores:
@@ -128,7 +116,8 @@ Recabe dois valores:
 - Altura (chamado `height`) de um triângulo.
 - Retorna o cálculo da sua área.
 
-### 3 - Função `splitSentence(string)`.
+### 3 - Função splitSentence.
+`splitSentence(string)`
 `"divide a frase"`.
 
 Recebe uma string:
@@ -137,7 +126,8 @@ Recebe uma string:
 Exemplo:
 - Retorna `['go', 'Trybe']` quando o parâmentro na função splitSentence seja `"go Trybe"`.
 
-### 4 - Função `concatName(arrayStrings)`.
+### 4 - Função concatName.
+`concatName(arrayStrings)`
 `"concatenação de strings"`.
 
 Recebe um array de strings:
@@ -146,7 +136,8 @@ Recebe um array de strings:
 Exemplo:
 - Retorna a string `'Paolillo, Lucas'` quando o parâmetro passado na funcão concatName seja `['Lucas', 'Cassiano', 'Ferraz', 'Paolillo']`
 
-### 5 - Função `footballPoints(wins, ties)`.
+### 5 - Função footballPoints.
+`footballPoints(wins, ties)`
 `"calcule a quantidade de pontos no futebol"`.
 
 Recebe o número de vitórias (esse parâmetro se chamar `wins`) e o número de empates (esse parâmetro se chamar `ties`)
@@ -157,7 +148,8 @@ Considerando que cada `vitória vale 3` pontos e cada `empate vale 1` ponto.
 Exemplo:
 - Retorna `50` pontos quando o time tenha `14 vitórias` e `8 empates`
 
-### 6 - Função `highestCount(arrayRip)`.
+### 6 - Função highestCount.
+`highestCount(arrayRip)`.
 `"calcule a repetição do maior número"`.
 
 Receber uma array de números:
@@ -166,7 +158,8 @@ Receber uma array de números:
 Exemplo:
 - Retorna `2` quando o parâmetro passado na funcão highestCount seja `[9, 1, 2, 3, 9, 5, 7]`
 
-### 7 - Função `catAndMouse(mouse, cat1, cat2)`.
+### 7 - Função catAndMouse.
+`catAndMouse(mouse, cat1, cat2)`.
 `"Caça ao rato"`.
 
 Recebe a posição de `mouse`, `cat1` e `cat2`(**nessa ordem**).
@@ -180,7 +173,8 @@ Caso o gato `cat2` esteja a 2 unidades de distância do rato, e `cat1` esteja a 
 Caso os gatos estejam na mesma distância do rato, 
 - Retorna a string `"os gatos trombam e o rato foge"`.
 
-### 8 - Função `FizzBuzz(arrayNumbers)`.
+### 8 - Função FizzBuzz.
+`FizzBuzz(arrayNumbers)`
 
 Recebe um array de números:
 - Para cada número do Array que seja divisível apenas por 3, apresente uma string `"fizz"`;
@@ -191,7 +185,8 @@ Recebe um array de números:
 Exemplo:
 - Retorna um array de strings `['bug!', 'fizzBuzz', 'bug!', 'fizz', 'fizzBuzz']` quando é passado os parâmetros `[2, 15, 7, 9, 45]`
 
-### 9 - Funções `encode(codifique)` e `decode(decodifique)`.
+### 9 - Funções encode e decode.
+`encode(codifique)` e `decode(decodifique)`.
 
 Recebe uma string como parâmetro:
 
@@ -210,7 +205,8 @@ Deverá trocar todos os números por vogais minúsculas, de acordo com o formato
 Exemplo:
 - Retorna `"hi there!"`, caso o parâmetro seja `"h3 th2r2!"`.
 
-### 10 - Função `techList(tech, name)`.
+### 10 - Função techList.
+`techList(tech, name)`
 
 Recebe dois parâmentros:
 - Primeiro(tech), um array de nomes de tecnologias
@@ -240,8 +236,8 @@ Exemplo:
 
 Caso o array venha vazio sua função deve retornar `'Vazio!'`.
 
-### 11 - Função generatePhoneNumber(arrayNumbers).
-
+### 11 - Função generatePhoneNumber.
+`generatePhoneNumber(arrayNumbers)`
 Recebe um array com 11 números:
 - Retorna um número de telefone, respeitando parênteses, traços e espaços.
 
@@ -255,7 +251,8 @@ Exemplo:
 - Caso algum dos números do array seja menor que 0, maior que 9 ou se repita 3 vezes ou mais;
   - Retorna a string `"não é possível gerar um número de telefone com esses valores"`.
 
-### 12 - Função `triangleCheck(lineA, lineB, lineC)`
+### 12 - Função triangleCheck.
+`triangleCheck(lineA, lineB, lineC)`
 `"Condição de existência de um triângulo"`.
 
 Recebe três parâmetros:
@@ -272,7 +269,8 @@ Exemplo:
 
 - Retorne true quando a medida de qualquer um dos lados seja menor que a soma das medidas dos outros dois e maior que o valor absoluto da diferença entre essas medidas
 
-### 13 - Função `hydrate(string)`.
+### 13 - Função hydrate.
+`hydrate(string)`.
 
 A cada bebida deve-se beber um copo de água para que não se tenha ressaca.
 
