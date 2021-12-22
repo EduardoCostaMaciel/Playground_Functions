@@ -34,9 +34,7 @@ Aqui você vai encontrar algumas funções de objetivos específicos, como por, 
   - [Durante o desenvolvimento](#durante-o-desenvolvimento)
 - [Como desenvolver](#como-desenvolver)
   - [Linter](#linter)
-- [Requisitos do projeto](#requisitos-do-projeto)
-
-    `Requisitos obrigatórios:`
+- [Fuções do projeto](#funções-do-projeto)
     - [1 - Função compareTrue](#1---função-comparetrue)
     - [2 - Crie uma função que calcule a área do triângulo](#2---crie-uma-função-que-calcule-a-área-do-triângulo)
     - [3 - Crie uma função que divida a frase](#3---crie-uma-função-que-divida-a-frase)
@@ -112,6 +110,8 @@ Todas as funções estão declaradas nos arquivos `challenges.js` e `challenges2
 * Para verificar se cada função foi criada corretamente você pode instalar a extensão `code runner` no _VSCode_.
 
 ---
+
+## Funções do projeto
 
 ### 1 - Função compareTrue(valueBooleanOne, valueBooleanTwo)
 
